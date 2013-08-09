@@ -73,7 +73,7 @@ def main(argv):
 				for y in range(int(rng[0]), int(rng[1])):
 					roman = x.dec_to_roman(y)
 					roman_dec = x.roman_to_dec(str(roman))
-					print arg + " => " +  roman + " =>  "  + str(roman_dec) 
+					print str(y) + " => " +  roman + " =>  "  + str(roman_dec) 
 
 				
 				sys.exit()
